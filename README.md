@@ -7,6 +7,8 @@ MCP Apps let MCP servers render rich, interactive UIs directly inside AI convers
 ## Contents
 
 - [Official](#official)
+- [Official Examples](#official-examples)
+- [Interactive Connectors (Closed Source)](#interactive-connectors-closed-source)
 - [Apps](#apps)
   - [Diagrams & Visualization](#diagrams--visualization)
   - [3D & Creative](#3d--creative)
@@ -27,11 +29,56 @@ MCP Apps let MCP servers render rich, interactive UIs directly inside AI convers
 - [Claude Design Guidelines](https://claude.com/docs/connectors/building/mcp-apps/design-guidelines) — UI design guidelines for Claude.
 - [ChatGPT UI Guidelines](https://developers.openai.com/apps-sdk/concepts/ui-guidelines) — UI design guidelines for ChatGPT.
 
+## Official Examples
+
+Example MCP Apps included in the [ext-apps](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples) repo:
+
+- [map-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/map-server) — Interactive 3D globe viewer using CesiumJS.
+- [threejs-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/threejs-server) — Interactive 3D scene renderer using Three.js.
+- [sheet-music-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/sheet-music-server) — ABC notation sheet music with audio playback.
+- [scenario-modeler-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/scenario-modeler-server) — SaaS business scenario modeling with real-time projections.
+- [budget-allocator-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/budget-allocator-server) — Budget allocation tool.
+- [system-monitor-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/system-monitor-server) — Real-time OS metrics (CPU, memory) dashboard.
+- [cohort-heatmap-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/cohort-heatmap-server) — Cohort retention heatmap visualization.
+- [customer-segmentation-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/customer-segmentation-server) — Customer segmentation analysis.
+- [pdf-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/pdf-server) — PDF document viewer.
+- [video-resource-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/video-resource-server) — Video resource player.
+- [wiki-explorer-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/wiki-explorer-server) — Wikipedia article explorer.
+- [transcript-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/transcript-server) — Transcript viewer.
+- [shadertoy-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/shadertoy-server) — Shadertoy GLSL shader renderer.
+- [qr-server](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/qr-server) — QR code generator.
+
+Framework starter templates: [React](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/basic-server-react), [Preact](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/basic-server-preact), [Vue](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/basic-server-vue), [Svelte](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/basic-server-svelte), [Solid](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/basic-server-solid), [Vanilla JS](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/basic-server-vanillajs).
+
+## Interactive Connectors (Closed Source)
+
+These are available as interactive connectors in Claude.ai or ChatGPT but are **not open source**:
+
+### Claude Connectors ([directory](https://claude.com/connectors))
+
+- **Amplitude** — Product analytics charts and trend exploration.
+- **Asana** — Project management: create tasks, timelines, and track projects.
+- **Box** — File search, inline document preview, and content extraction.
+- **Canva** — Design creation and visual content editing.
+- **Clay** — Data enrichment and lead generation.
+- **Figma** — Collaborative design and diagramming.
+- **Hex** — Business intelligence queries and data visualization.
+- **monday.com** — Workflow automation and project coordination.
+- **Slack** — Messaging, channel search, and communication.
+- **Salesforce** — CRM data and customer management.
+- **[draw.io](https://mcp.draw.io/mcp)** — Diagram editor supporting XML, CSV, and Mermaid formats.
+- **[Mermaid Chart](https://claude.com/connectors/mermaid-chart)** — Mermaid diagram validation and PNG rendering.
+
+### ChatGPT Apps ([Apps SDK](https://developers.openai.com/apps-sdk/))
+
+Pilot partners: Booking.com · Canva · Coursera · Expedia · Figma · Spotify · Zillow
+
 ## Apps
 
 ### Diagrams & Visualization
 
 - [excalidraw-mcp](https://github.com/excalidraw/excalidraw-mcp) — Excalidraw whiteboard with streaming render and checkpoint persistence. The reference implementation for MCP Apps. ⭐ 2.7k
+- [drawio-mcp](https://github.com/jgraph/drawio-mcp) — Official draw.io MCP server with diagram rendering and editing.
 - [mermaid-mcp-app](https://github.com/psylch/mermaid-mcp-app) — Mermaid diagram editor with click-to-select, box select, inline rename, and AI context design.
 - [plantuml-mcp-app](https://github.com/psylch/plantuml-mcp-app) — PlantUML diagram renderer with live preview and code editing.
 
