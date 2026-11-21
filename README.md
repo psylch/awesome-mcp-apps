@@ -121,6 +121,7 @@ Pilot partners: Booking.com · Canva · Coursera · Expedia · Figma · Spotify 
 - [mcp-apps-kit](https://github.com/AndurilCode/mcp-apps-kit) — TypeScript framework targeting both MCP Apps and ChatGPT Apps from a single codebase.
 - [mcp-ui-components](https://github.com/themesberg/mcp-ui-components) — UI components based on Flowbite and Skybridge.
 - [mcp-ui](https://github.com/epicweb-dev/mcp-ui) — Go beyond text interaction in AI chat.
+- [xmcp](https://github.com/basementstudio/xmcp) — TypeScript framework for building MCP servers and rendering React widgets as MCP Apps.
 
 ## Developer Tools
 
